@@ -1,0 +1,186 @@
+body {
+	color: #fff;
+	background: #3F67C3;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+        
+}
+.menu__handle {
+	background: transparent;
+	border: none;
+	width: 30px;
+	height: 24px;
+	padding: 0;
+	outline: none;
+	position: absolute;
+	top: 3px;
+	right: 70px;
+	z-index: 2000;
+        
+}
+.container {padding-right: 0;
+padding-left: 0;}
+
+.slide {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.links {
+    
+    background-color: #051A2E; 
+}
+.im {
+padding: 25px 0 25px 0;
+}
+.im img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+.info {
+    padding: 40px 0 25px 0 ;
+    background-color: #3F67C3; 
+}
+.info-sub {
+    padding: 15px 5px 10px 5px;
+background-color:#739EE8;
+border-radius: 20px;
+margin-bottom: 25px;}
+.info-sub h2 {font-family: "Myra";
+ font-size: 22px;} 
+.info-sub p{      font-family: "CaviarBoldItalic";
+ font-size: 14px;} 
+.info-sub:hover {box-shadow:10px 1px 100px #666;}
+.info2 {
+
+     background: url("7.jpg") 100% 100% no-repeat;
+     background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+.border1 {
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+footer {background-color:#3F4655;
+min-height: 60px;
+padding-top: 10px;}
+.info3 {
+    background: url("44.jpg") 100% 100% no-repeat;
+    
+     background-position: center;
+    background-size: cover;
+    border-top: 2px solid #3F67C3;
+    border-bottom: 2px solid #3F67C3;
+}
+.info3-sub {padding: 20px 10px 15px 10px;}
+.info4 {
+  
+    background-color:#3F67C3; 
+}
+.info4-sub {
+ background: url("2_kids.jpg") 100% 100% no-repeat;
+     background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.info4-sub2 {
+ background: url("8.jpg") 100% 100% no-repeat;
+     background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.info5 {
+    
+    background-color:#859BCF;
+}
+button {background-color: #0F2D72;
+}
+.btn {border-radius: 0px;}
+.hh button {height: 50px;}
+.form {padding: 20px 20px 15px 20px;} 
+input, textarea {height: 40px;
+width: 100%;}
+.btn-4:hover {background-color:#0F2D72; }
+.sl-slide-inner h2 {
+    font-family: "Akrobat-SemiBold";
+ font-size: 18px;
+color: #D6E7DA;
+}
+.sl-slide-inner p {
+    font-family: "BrandonGrotesqueMediumIt";
+ font-size: 18px;
+color: #051A2E;
+background-color: white;
+border-radius: 20px;
+padding: 10px;
+}
+.border1, .col-sm-8 p {
+    font-family: "Caviar";
+ font-size: 17px;
+color:yellow;
+}
+.info3-sub h2, .col-sm-8 h1{font-family: "Myra";
+ font-size: 16px;
+color:white;}
+.info3-sub p{  font-family: "CaviarBoldItalic";
+ font-size: 16px;
+color:white;}
+.ski {padding: 30px 10px 10px 10px;}
+
+  .rotate1 {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow: hidden;}
+  .rotate1:hover{
+      cursor: pointer;
+     -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+}
+aside {font-size:  100px;}
+.info-sub button:hover, .info3-sub button:hover {background-color: #AFC4E8;
+color:white;}
+.menu ul li span {
+    font-size: 20px;
+    color:white;
+    font-family: "Myra";
+}
+.menu__inner a {  text-decoration: none;}
+.menu__inner i:hover { font-size: 21px;
+}
+.menu ul li span:hover {
+  
+    color:#739EE8;
+}
+.search {font-size: 150px;
+padding-top:50px;}
+.submit1 {
+padding-top:90px;
+font-size: 30px;
+ font-family: "CaviarItalic";
+ font-weight: 20px;
+}
+#footer {
+      font-family: "TrackItalic";
+      color: white;
+    
+    width: 100%;
+    padding: 10px;
+    color: #eee;
+    text-align: center;
+    font-weight: normal;
+    background-color: #02713C;
+    font-size: 25px;
+    font-style: italic;}
+#footer a:hover {
+    text-decoration: underline;
+    color: yellow;}
